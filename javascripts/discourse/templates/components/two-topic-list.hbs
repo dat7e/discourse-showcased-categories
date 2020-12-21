@@ -4,7 +4,6 @@
     <div class="col col-1">
       <div class="header-wrapper">
         <h2>{{themeSettings.feed_one_title}}</h2>
-        {{#d-button action="createListOneTopic" class="btn-primary btn"}}Post{{/d-button}}
       </div>
       {{topic-list topics=topicListOne showPosters=true}}
       <a href="c/{{topicListOneHref}}" class="btn btn-more">More</a>
@@ -15,7 +14,6 @@
         {{#d-button action="createListTwoTopic" class="btn-primary btn"}}Post{{/d-button}}
       </div>
       {{topic-list topics=topicListTwo showPosters=true}}
-      <a href="c/{{topicListTwoHref}}" class="btn btn-more">More</a>
     </div>
   </div>
 {{/if}}
